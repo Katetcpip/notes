@@ -15,18 +15,9 @@ export default function Home() {
           href="https://www.freepnglogos.com/uploads/note-png/stickies-note-image-pixabay-18.png"
         />
       </Head>
-      <main className="flex flex-col">
-        <div className="flex flex-col items-start">
-          <div className="flex flex-row justify-start w-full flex-wrap pt-8 md:pl-10 pl-4 items-center sm:w-1/2">
-            <p className="md:text-5xl text-3xl">📝</p>
-            <p className="font-semibold md:text-5xl text-3xl text-gray-200 md:pl-20 pl-0 md:-mt-12 mt-0">
-              WANNA NOTE SOMETHING?...
-            </p>
-          </div>
-          <div className="flex flex-col gap-3 w-full items-center pt-8">
-           
+      <main className="flex flex-col min-h-screen">
+        <div className="flex flex-col gap-3 w-full items-center">         
             <Form />
-          </div>
         </div>
       </main>
     </>
