@@ -170,8 +170,8 @@ const Form = () => {
     </div>
 
     <div className="flex flex-row flex-wrap w-full lg:p-0 md:justify-start m-auto justify-center p-8 mb-10">
-      <div className="w-full flex flex-row justify-end">
-        <button className="bg-orange-600 rounded-md shadow-md p-1 m-1">
+      <div className="w-full flex flex-row md:justify-end justify-center">
+        <button className="bg-orange-600 rounded-md shadow-md p-2 m-1">
           To edit touch the field
         </button>
         
