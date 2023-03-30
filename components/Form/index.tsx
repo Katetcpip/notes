@@ -4,8 +4,8 @@ import { v4 } from "uuid";
 import Image from "next/image";
 import { format } from 'date-fns'
 import {ThemeProvider} from "styled-components";
-import { GlobalStyles } from "@/components/Themes.js";
-import { lightTheme, darkTheme } from "@/components/Themes.js";
+import { GlobalStyles } from "@/components/Themes.jsx";
+import { lightTheme, darkTheme } from "@/components/Themes.jsx";
 import ContentEditable from 'react-contenteditable'
 
 
